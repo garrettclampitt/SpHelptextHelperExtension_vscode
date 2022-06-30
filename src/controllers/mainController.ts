@@ -10,7 +10,7 @@ export default class MainController extends ControllerBase {
     }
 
     public activate(): Promise<boolean> {
-        this._context.subscriptions.push(vscode.commands.registerCommand('SpHelptextHelperExtension.helloWorld', () => this.onExecute()));
+        this._context.subscriptions.push(vscode.commands.registerCommand('SpHelptextHelperExtension.run', () => this.onExecute()));
 
         return Promise.resolve(true);
     }
@@ -40,8 +40,7 @@ export default class MainController extends ControllerBase {
                 return;
             }
 
-            vscode.window.showInformationMessage('running');
-
+            // vscode.window.showInformationMessage('running');
             if (connection) {
                 azdata.connection.getUriForConnection(connection.connectionId).then(uri => {
                     var g = azdata.dataprotocol.getProvidersByType(
@@ -61,7 +60,6 @@ export default class MainController extends ControllerBase {
                             value.rows.forEach(dataRow => {
                                 text += dataRow[0].displayValue;
                             });
-
                         }
 
                         if (!editor) {

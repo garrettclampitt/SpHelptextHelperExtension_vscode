@@ -12,14 +12,13 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:SpHelptextHelperExtension.helloWorld",
-		"onCommand:SpHelptextHelperExtension.showCurrentConnection"
+		"onCommand:SpHelptextHelperExtension.run"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "SpHelptextHelperExtension.helloWorld",
+				"command": "SpHelptextHelperExtension.run",
 				"title": "SpHelptextHelperExtension: Run sp_helptext"
 			}
 		]
