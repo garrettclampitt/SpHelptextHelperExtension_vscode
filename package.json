@@ -4,6 +4,10 @@
 	"description": "SpHelptext dedicated window",
 	"publisher": "gclampitt",
 	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/garrettclampitt/SpHelptextHelperExtension_vscode"
+	},
 	"engines": {
 		"vscode": "^1.39.0",
 		"azdata": "*"
