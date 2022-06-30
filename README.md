@@ -1,13 +1,14 @@
-# README
-## This is the README for your extension "SpHelptextHelperExtension"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# SpHelptextHelperExtension
+##To install  "SpHelptextHelperExtension"
+- Download VSIX file from releases on the right-hand side
+- Open Azure Dev Ops
+- Hit <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd>
+- Search `Extensions: Install from VSIX` and click the option that matches.
+  - You can probably search faster by typing `Install`
+- Search for VSIX and install it.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+## Keyboard Shortcut
+- Command is listed under `SpHelptextHelperExtension.run`
+- Hit <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd>
+- Search `Keyboard Shortcuts` and click the option that matches.
+- Search for command and assign it to desired shortcut.
