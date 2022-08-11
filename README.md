@@ -1,5 +1,5 @@
 # SpHelptextHelperExtension
-##To install  "SpHelptextHelperExtension"
+## To install  "SpHelptextHelperExtension"
 - Download VSIX file from releases on the right-hand side
 - Open Azure Dev Ops
 - Hit <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd>
