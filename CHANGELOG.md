@@ -7,3 +7,14 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 
 - Initial release
+
+## [0.0.2] - 2024-01-01
+
+### Added
+
+- Added command to copy sp_helptext straight to clipboard
+- Added command to open sp_helptext in a text document
+
+### Changed
+
+- Changed the original behavior to opening in a webview instead of a text document

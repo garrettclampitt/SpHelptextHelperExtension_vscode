@@ -1,5 +1,13 @@
 # SpHelptextHelperExtension
-## To install  "SpHelptextHelperExtension"
+
+## To create VSIX
+
+- Enter changes in changelog.md
+- run command `vsce package`
+- Check in vsix release to git repo
+
+## To install "SpHelptextHelperExtension"
+
 - Download VSIX file from releases on the right-hand side
 - Open Azure Dev Ops
 - Hit <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd>
@@ -8,6 +16,7 @@
 - Search for VSIX and install it.
 
 ## Keyboard Shortcut
+
 - Command is listed under `SpHelptextHelperExtension.run`
 - Hit <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd>
 - Search `Keyboard Shortcuts` and click the option that matches.
